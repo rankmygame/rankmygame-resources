@@ -177,3 +177,16 @@ img{max-width:100%;display:block}
 .ch-link:hover{background:var(--accent);text-decoration:none}
 .faq-list dd{margin-bottom:1.25rem}
 @media(max-width:768px){.article-header h1{font-size:1.5rem}.quick-verdict-grid{grid-template-columns:1fr}.h2h-row{grid-template-columns:1fr;gap:.5rem}.rld-item{flex-direction:column;gap:.75rem}.channel-item{flex-direction:column;align-items:flex-start}}
+
+/* Social Media Icons */
+.social-icons-header{display:flex;align-items:center;gap:0.75rem;margin-left:auto;flex-shrink:0}
+.social-icon{color:rgba(255,255,255,.6);transition:color .2s,transform .2s;display:flex;align-items:center;justify-content:center;padding:2px}
+.social-icon:hover{color:#fff;transform:translateY(-1px);text-decoration:none}
+.footer-social{display:flex;gap:.75rem;margin-top:1rem}
+.footer-social .social-icon{color:rgba(255,255,255,.6);background:rgba(255,255,255,.1);padding:.4rem;border-radius:6px}
+.footer-social .social-icon:hover{color:#fff;background:rgba(255,255,255,.2)}
+.footer-social-bottom{display:flex;align-items:center;gap:1rem;justify-content:center;margin-bottom:.75rem;flex-wrap:wrap}
+.footer-social-bottom .follow-us-label{font-size:.8rem;opacity:.5;text-transform:uppercase;letter-spacing:1px}
+.footer-social-bottom a{color:rgba(255,255,255,.7);font-size:.85rem;transition:color .2s}
+.footer-social-bottom a:hover{color:#fff;text-decoration:none}
+@media(max-width:768px){.social-icons-header{width:100%;justify-content:center;margin-top:.5rem;margin-left:0}}
